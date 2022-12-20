@@ -1,1 +1,1 @@
-plugin_newsletter:plugin_wishlists:app_storefront_base
+custom_sendEmail:plugin_newsletter:plugin_wishlists:app_storefront_base
