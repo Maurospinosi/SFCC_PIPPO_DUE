@@ -1,0 +1,1 @@
+plugin_wishlists:app_storefront_base
