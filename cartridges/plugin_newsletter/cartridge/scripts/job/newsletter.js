@@ -19,7 +19,7 @@ function execute() {
             Logger.info('Subscribed email {0}', newsletterForm.custom.email);
 
             try {
-              CustomObjectMgr.remove(searchQuery.first());
+              CustomObjectMgr.remove(newsletterForm);
             } catch (e) {
               Logger.error('Error occured during delete email {0}', newsletterForm.custom.email);
             }
