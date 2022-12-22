@@ -17,12 +17,11 @@ function subscribe() {
         svc.addHeader('Content-Type', 'application/json');
         svc.addHeader('Accept', 'application/json');
         svc.setRequestMethod('POST');
-
+        var curSite = Site.getCurrent();
         svc.url = curSite.getCustomPreferenceValue('url');
         
         svc.setAuthentication('NONE');
 
-        var curSite = Site.getCurrent();
         var username = curSite.getCustomPreferenceValue('client_id');
         var password = curSite.getCustomPreferenceValue('client_secret');
 
